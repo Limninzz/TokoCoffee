@@ -78,12 +78,13 @@ body {
     object-fit: cover; 
     width: 20%;
     padding:0 40px;
+    border-radius: 25px;
 }
 
-img {
-    border-radius: 15px;
+.content-container {
+    border: 2px solid red;
+    width: 20%;
 }
-
 .content-wrapper h2 {
     position: absolute;
     font-weight: 800;
@@ -91,4 +92,8 @@ img {
     line-height: 58px;
     color: #0F8B8D;
     border-bottom:2px solid #0F8B8D;
+}
+
+.content-wrapper p {
+    margin-top:40%;
 }
