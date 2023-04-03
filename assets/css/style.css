@@ -394,14 +394,76 @@ nav {
     left: 138px;
     top: 80px;
 }
-.footer-left img:nth-child(2) {
+.footer-left .mail{
     width:40px;
     height:32px;
     position: absolute;
     left: 138;
     top: 178px;
     bottom: 6.52%;
-    fill: #F9FBFE;
+    filter:invert(1);
+}
+.footer-left .phone{
+    position: absolute;
+    width:32px;
+    height:32px;
+    left: 205px;
+    top: 178px;
+    filter:invert(1);
+}
+.footer-menu h1{
+    position: absolute;
+    font-family: 'Lato';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 24px;
+    line-height: 29px;
+    top:80px;
+    height:29px;
+    color: #EC9A29;
+}
+.footer-menu p {
+    position: absolute;
+    font-weight: 400;
+    font-size: 24px;
+    line-height: 29px;
     color: #F9FBFE;
-    background:#F9FBFE;
+    height: 29px;
+}
+.footer-menu h1:first-child {
+    width: 97px;
+    left: 612px;
+}
+.footer-menu h1:nth-child(5) {
+    width: 59px;
+    left: 852px;
+}
+.footer-menu h1:nth-child(7) {
+    width:86px;
+    left:1043px;
+}
+.footer-menu p:nth-child(2) {
+    width: 145px;
+    left: 612px;
+    top: 129px;
+}
+.footer-menu p:nth-child(3) {
+    width: 125px;
+    left: 612px;
+    top: 178px;
+}
+.footer-menu p:nth-child(4) {
+    width: 106px;
+    left: 612px;
+    top: 227px;
+}
+.footer-menu p:nth-child(6) {
+    width: 91px;
+    left: 852px;
+    top: 129px;
+}
+.footer-menu p:nth-child(8) {
+    width: 187px;
+    left: 1043px;
+    top: 129px;
 }
