@@ -395,11 +395,13 @@ nav {
     top: 80px;
 }
 .footer-left img:nth-child(2) {
+    width:40px;
+    height:32px;
     position: absolute;
-left: 9.58%;
-right: 87.64%;
-top: 92.65%;
-bottom: 6.52%;
-
-background: #F9FBFE;
+    left: 138;
+    top: 178px;
+    bottom: 6.52%;
+    fill: #F9FBFE;
+    color: #F9FBFE;
+    background:#F9FBFE;
 }
